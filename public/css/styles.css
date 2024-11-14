@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    margin-top: 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#add-new-book {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+#price {
+    width: 245px;
+}
+ul {
+    margin: 0;
+}
+div.required .form-label:before {
+    content: '* ';
+    color: #F00;
+    font-weight: bold;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
